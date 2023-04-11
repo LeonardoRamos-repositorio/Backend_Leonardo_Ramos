@@ -29,8 +29,8 @@ class ProductManager {
 
     }
 
-    getProductsById = (array) => {
-        if (array.length === 0) return `Array must contain almost one object`;
+    getProductById = (array) => {
+        if (array.length === 0) return `el arreglo esta vacio`;
 
         let types = [];
         let uniqueTypes = [];
